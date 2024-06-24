@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: aquamarine; */
+    background-color: steelblue;
+    font-family: cursive;
+    font-size: 62.8%;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.container .heading {
+    padding: 2rem;
+
+}
+
+.heading h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.fieldContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container {
+    display: grid;
+    place-items: center;
+}
+
+label,
+input,
+select {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin: 1.2rem;
+}
+
+
+#courseContainer,
+#creditContainer,
+#gradeContainer {
+    width: 100%;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+button {
+    padding: 1rem;
+    border: 2px solid black;
+    -o-border-radius: 20rem;
+    -webkit-border-radius: 20rem;
+    -moz-border-radius: 20rem;
+    -ms-border-radius: 20rem;
+    border-radius: 20rem;
+    color: black;
+    background-color: beige;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: cursive;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+button:hover {
+    background-color: azure;
+    color: darkslategray;
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#result {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 1rem;
+}

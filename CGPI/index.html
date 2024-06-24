@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator - calulate Your CGPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>CGPA CALCULATOR</h1>
+        </div>
+        <form action="#">
+            <div class="input-container">
+                <label for="userInput">Enter number of course:</label>
+                <input type="text" id="userInput" placeholder="Total number of course">
+                <button type="button" id="enter">Enter</button>
+            </div>
+
+            <div class="fieldContainer">
+                <div id="courseContainer">
+                    <label for="course">Course</label>
+                    <input type="text" id="course" placeholder="Enter Course">
+                </div>
+                <div id="gradeContainer">
+                    <label for="grade">Grade</label>
+                    <select name="grae" id="grade">
+                        <option value="10">S</option>
+                        <option value="9">A</option>
+                        <option value="8">B</option>
+                        <option value="7">C</option>
+                        <option value="6">D</option>
+                        <option value="4">E</option>
+                        <option value="0">F</option>
+                        <option value="0">U</option>
+                        <option value="0">P</option>
+
+                    </select>
+                </div>
+                <div id="creditContainer">
+                    <label for="credit">Credits</label>
+                    <input type="text" id="credit" placeholder="Enter credits">
+                </div>
+            </div>
+            <div class="buttonContainer">
+                <div id="addButtonContainer">
+                    <button type="button" id="add">Add Course</button>
+                </div>
+                <div id="calculateButtonContainer">
+                    <button type="submit" id="calculate">Calculate</button>
+                </div>
+                <div class="resetButton">
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
